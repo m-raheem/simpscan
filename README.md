@@ -29,15 +29,16 @@ python portscanner.py localhost -p 1-65535
 #To scan a specific range of ports on a remote machine:
 python portscanner.py 192.168.0.1 -p 80-100
 ```
-Note: This port scanner is intended for educational and testing purposes only. Always obtain proper authorization before scanning any target machine.
+## Note 
+This port scanner is intended for educational and testing purposes only. Always obtain proper authorization before scanning any target machine.
 
-###Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please create an issue or submit a pull request.
 
-###License
+## License
 This project is licensed under the MIT License.
 
-###Disclaimer
+## Disclaimer
 The authors of this project are not responsible for any misuse or damage caused by using this port scanner. Use it responsibly and at your own risk.
 In this version, I added a section for usage examples, included an image representing the port scanner, and provided clearer instructions for running the script. Feel free to customize it further according to your preferences and the specific features of your implementation.
 
