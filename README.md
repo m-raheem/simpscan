@@ -23,13 +23,12 @@ python portscanner.py <ip> -p <1-1000>
 -p: Optional flag to specify the range of ports to scan. If not provided, it will scan the port number provided as the third argument.
 <1-1000>: Range of ports to scan, e.g., 1-1000. You can also specify a single port number instead of a range.
 Examples
-To scan all ports on localhost:
-```shell
+#To scan all ports on localhost:
 python portscanner.py localhost -p 1-65535
 
-To scan a specific range of ports on a remote machine:
-```shell
+#To scan a specific range of ports on a remote machine:
 python portscanner.py 192.168.0.1 -p 80-100
+```
 Note: This port scanner is intended for educational and testing purposes only. Always obtain proper authorization before scanning any target machine.
 
 ###Contributing
